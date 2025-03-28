@@ -19,10 +19,10 @@
         <form action="enviar_contacto.php" method="POST">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
-
+            
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-
+            <br>
             <label for="servicio">Servicio de Interés:</label>
             <select id="servicio" name="servicio" required>
                 <option value="cursos">Cursos</option>
@@ -31,11 +31,11 @@
                 <option value="talleres">Talleres</option>
                 <option value="otros">Otros</option>
             </select>
-
+            <br>
             <label for="mensaje">Mensaje:</label>
             <textarea id="mensaje" name="mensaje" required></textarea>
-
-            <button type="submit">Enviar</button>
+            <br>
+            <button class="btn" type="submit">Enviar</button>
         </form>
     </section>
 </main>

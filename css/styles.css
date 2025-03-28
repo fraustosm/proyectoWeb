@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Winky Sans", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #F5F3F7;
@@ -56,7 +56,7 @@ p, h2, h3, h4, h5, h6, ul, li {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
 }
 
 nav ul {
@@ -96,12 +96,19 @@ main {
     /* background: white; */
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: justify;
 }
 
 h2, h3 {
     color: #6A5ACD;
     font-weight: 600;
+    text-align: center;
+}
+
+h3 {
+    color: #6A5ACD;
+    font-weight: 600;
+    text-align: justify;
 }
 
 /* Botón */

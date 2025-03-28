@@ -27,6 +27,13 @@
                     </li>
                 </ul>
         </section>
+        <section>
+            <div class="container">
+                <h3>Redes sociales</h3>
+                <a href="https://www.linkedin.com/mfrausto">LinkedIn</a>
+                <a href="https://www.github.com/fraustos">GitHub</a>
+            </div>
+        </section>
     </main>
 
     <?php include '../includes/footer.php'; ?>
