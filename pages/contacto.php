@@ -12,7 +12,7 @@
 <main>
     <section>
         <h2>Contacto</h2>
-        <p>Si tienes alguna pregunta o necesitas más información sobre nuestros servicios y cursos, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte.</p>
+        <p>Si tienes alguna pregunta o necesitas más información sobre nuestros servicios, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte.</p>
     </section>
     <section>
         <h3>Formulario de Contacto</h3>
@@ -27,7 +27,8 @@
             <select id="servicio" name="servicio" required>
                 <option value="cursos">Cursos</option>
                 <option value="materiales">Materiales</option>
-                <option value="tutorias">Talleres</option>
+                <option value="clases-online">Clases online</option>
+                <option value="talleres">Talleres</option>
                 <option value="otros">Otros</option>
             </select>
 
