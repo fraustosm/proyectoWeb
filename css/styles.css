@@ -38,10 +38,10 @@ h1 {
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Winky+Sans:wght@400&display=swap');
-p, h2, h3, h4, h5, h6 {
+p, h2, h3, h4, h5, h6, ul, li {
+    
     font-family: "Winky Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
   }
 
