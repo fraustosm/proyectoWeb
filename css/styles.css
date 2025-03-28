@@ -23,6 +23,28 @@ header {
     flex-wrap: wrap;
 }
 
+/* h1 font */
+h1 {
+    font-size: 2.5rem;
+    color: solid black;
+    font-weight: 700;
+    margin: 0;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+} 
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:wght@400&display=swap');
+p, h2, h3, h4, h5, h6 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
 /* Logo */
 .logo {
     height: 60px;;
