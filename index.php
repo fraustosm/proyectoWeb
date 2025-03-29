@@ -19,30 +19,21 @@
         </section>
         <section>
             <div class="services-container">
-                <h3>¿Qué ofrecemos?</h3>
+                <h3>Servicios destacados</h3>
                 <ul>
                     <div class="services-card">
                         <li>Cursos estructurados desde nivel A1 hasta B2, inglés académico y especializado.</li>
-                        <img src="" alt="cursos">
+                        <img src="/img/class.jpg" alt="cursos" height="120px" width="auto">
                     </div>
 
                     <div class="service-card">
                         <li>Material didáctico exclusivo, incluyendo libros y ejercicios interactivos.</li>
-                        <img src="" alt="material didactico">
+                        <img src="/img/materiales.jpg" alt="material didactico" height="120px" width="auto">
                     </div>
 
                     <div class="service-card">
                         <li>Clases en línea con una docente licenciada en enseñanza del idioma inglés con más de 5 años de experiencia enseñando en distintos niveles y edades.</li>
-                        <img src="" alt="clases en linea">
-                    </div>
-                    <div class="service-card">
-                        <li>Pruebas de nivel para medir tu progreso.</li>
-                        <img src="" alt="pruebas de nivel">
-                    </div>
-
-                    <div class="service-card">
-                        <li>Comunidad de estudiantes para compartir dudas y experiencias.</li>
-                        <img src="" alt="Comunidad de estudiantes">
+                        <img src="/img/online-classes.jpg" alt="clases en linea" height="120px" width="auto">
                     </div>
                 </ul>
             </div>
@@ -50,6 +41,7 @@
         <section>
             <h3>Beneficios de aprender con nosotros</h3>
             <p>Aprender inglés te abrirá nuevas oportunidades laborales y académicas. Nuestro método está diseñado para que avances a tu propio ritmo con un sistema efectivo y práctico.</p>
+            <img src="/img/success.jpg" alt="success" height="120px" width="auto">
         </section>
     </main>
 

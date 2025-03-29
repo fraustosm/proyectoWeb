@@ -30,8 +30,8 @@
         <section>
             <div class="container">
                 <h3>Redes sociales</h3>
-                <a href="https://www.linkedin.com/mfrausto">LinkedIn</a>
-                <a href="https://www.github.com/fraustos">GitHub</a>
+                <button class="btn"> <a href="https://www.linkedin.com/mfrausto">LinkedIn</a></button>
+                <button class="btn"> <a href="https://www.github.com/fraustos">GitHub</a></button>
             </div>
         </section>
     </main>
