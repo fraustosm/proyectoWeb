@@ -11,11 +11,8 @@
     <?php include '../includes/header.php'; ?>
 <main>
     <section>
-        <h2>Contacto</h2>
-        <p>Si tienes alguna pregunta o necesitas más información sobre nuestros servicios, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte.</p>
-    </section>
-    <section>
-        <h3>Formulario de Contacto</h3>
+        <h2>Formulario de Contacto</h2>
+        <p>Contáctanos!</p>
         <form action="enviar_contacto.php" method="POST">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>

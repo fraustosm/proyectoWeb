@@ -15,7 +15,7 @@
     <nav>
         <ul>
             <li><a href="/index.php">Inicio</a></li>
-            <li><a href="/pages/servicios.php">Servicios</a></li>
+            <li><a href="/pages/servicios.php">Productos</a></li>
             <li><a href="/pages/contacto.php">Contacto</a></li>
             <li><a href="/pages/aboutus.php">Sobre nosotros</a></li>
             <li><a href="/pages/blog.php">Blog</a></li>

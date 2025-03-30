@@ -1,4 +1,4 @@
-<!-- servicios.php -->
+<!-- era servicios pero lo estaré cambiando a Productos.php -->
 <?php include '../includes/header.php'; ?>
 
 <main>
