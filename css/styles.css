@@ -16,11 +16,19 @@
 
 /* General */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     color: var(--text);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+h1 {
+    font-family: "Lobster", sans-serif;
+font-weight: 400;
+font-style: normal;      
 }
 
 /* Header */
@@ -128,6 +136,9 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: auto;
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* Responsive */
@@ -140,12 +151,13 @@ footer {
         color: var(--white);
         font-size: 1.5rem;
     }
-@media (min-width: 769px) {
+/*
+    @media (min-width: 769px) {
     .nav-toggle {
         display: none;
     }
     }
-
+*/
     nav ul {
         display: none;
         width: 100%;
@@ -184,5 +196,23 @@ footer {
 
 a {
     text-decoration: none;
-    color: var(--text);
+    color: var(--white);
+}
+
+li {
+    list-style: none;
+}
+
+/* Uniformidad en imágenes de productos */
+.card-producto .card-img-top {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Versión móvil */
+@media (max-width: 768px) {
+    .card-producto .card-img-top {
+        height: 200px;
+    }
 }

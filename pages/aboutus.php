@@ -19,19 +19,21 @@
         <section>
             <h2>Detrás de English 2Learn</h3>
                 <ul>
-                    <li><strong>María Frausto</strong> - CEO, PM, diseñadora instruccional y desarrolladora web.
+                    <li><strong>María Frausto</strong> - CEO, PM, diseñadora instruccional y desarrolladora web back end.
                         <img src="../img/photo.jpg" alt="Maria Frausto" height="120px" width="auto">
                     </li>
+                    <li><strong>Vladimir Kolesnikov </strong> - CTO, desarrollador web front end.
+                        <img src="../img/photo-1.jpg" alt="Vladimir Kolesnikov" height="120px" width="auto">
                     <li><strong>Tigrilla</strong> - Supervisora de calidad.
-                        <img src="" alt="Tigrilla- un gato">
+                        <img src="../img/tigrilla.jpg" alt="Tigrilla- un gato" height="120px" width="auto">
                     </li>
                 </ul>
         </section>
         <section>
             <div class="container">
                 <h3>Redes sociales</h3>
-                <button class="btn"> <a href="https://www.linkedin.com/mfrausto">LinkedIn</a></button>
-                <button class="btn"> <a href="https://www.github.com/fraustos">GitHub</a></button>
+                <button class="btn"> <a href="https://www.linkedin.com/in/mfraustofs/">LinkedIn</a></button>
+                <button class="btn"> <a href="https://www.github.com/fraustosm">GitHub</a></button>
             </div>
         </section>
     </main>

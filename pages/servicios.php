@@ -1,45 +1,43 @@
-<!-- era servicios pero lo estaré cambiando a Productos.php -->
 <?php include '../includes/header.php'; ?>
+<?php include '../db/connection.php'; ?>
 
 <main>
-    <section>
-        <h2>Servicios que ofrecemos</h2>
-        <p>En <strong>English 2learn</strong>, ofrecemos una variedad de servicios diseñados para ayudarte a aprender inglés de manera efectiva. Ya sea que estés comenzando o quieras mejorar tus habilidades, tenemos opciones para ti.</p>
-    </section>
-
-    <section class="service-cards">
-        <div class="service-card">
-            <h3>1. Cursos en línea</h3>
-            <p>Ofrecemos cursos estructurados desde el nivel A1 hasta B1, con materiales interactivos, ejercicios prácticos y clases grabadas para que aprendas a tu propio ritmo.</p>
-        </div>
-
-        <div class="service-card">
-            <h3>2. Clases personalizadas</h3>
-            <p>Si prefieres clases uno a uno, tenemos opciones personalizadas con nuestros profesores certificados. Las clases se adaptan a tus necesidades y metas específicas de aprendizaje.</p>
-        </div>
-
-        <div class="service-card">
-            <h3>3. Material didáctico exclusivo</h3>
-            <p>Te proporcionamos libros, guías y ejercicios exclusivos diseñados para ayudarte a practicar en cualquier momento y lugar. Nuestro material es accesible y fácil de seguir.</p>
-        </div>
-
-        <div class="service-card">
-            <h3>4. Pruebas de nivel</h3>
-            <p>Ofrecemos pruebas de nivel para evaluar tu progreso. Esto te ayudará a conocer tus fortalezas y debilidades, y ajustar tu plan de estudio para avanzar rápidamente.</p>
-        </div>
-
-        <div class="service-card">
-            <h3>5. Comunidad de estudiantes</h3>
-            <p>Al unirte a nosotros, accederás a nuestra comunidad de estudiantes donde podrás compartir dudas, experiencias y motivación con otros estudiantes que están aprendiendo inglés.</p>
-        </div>
-
-        <div class="service-card">
-            <h3>6. Asesoría personalizada</h3>
-            <p>Te ofrecemos asesoría personalizada sobre cómo mejorar tu inglés, cómo establecer metas claras de aprendizaje y cómo mantenerte motivado durante el proceso.</p>
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Nuestros Productos</h2>
+        
+        <div class="row">
+            <?php
+            $sql = "SELECT id, producto, precio, imagen FROM productos ORDER BY fecha_lanzamiento DESC";
+            $result = $conn->query($sql);
+            
+            if ($result && $result->num_rows > 0) {
+                $counter = 0;
+                while ($row = $result->fetch_assoc()) {
+                    if ($counter % 4 == 0) {
+                        echo '</div><div class="row mb-4">'; // Cierra y abre nueva fila cada 4 elementos
+                    }
+                    ?>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card h-100 card-producto">
+                            <img src="../img/<?= htmlspecialchars($row['imagen']) ?>" 
+                                 class="card-img-top" 
+                                 alt="<?= htmlspecialchars($row['producto']) ?>">
+                            <div class="card-body">
+                                <h5 class="card-title"><?= htmlspecialchars($row['producto']) ?></h5>
+                                <p class="card-text text-success h4">$<?= number_format($row['precio'], 2) ?></p>
+                                <a href="Producto.php?id=<?= $row['id'] ?>" class="btn btn-primary">Ver Detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                    $counter++;
+                }
+            } else {
+                echo '<div class="col-12"><div class="alert alert-info">Próximamente nuevos productos!</div></div>';
+            }
+            ?>
         </div>
     </section>
 </main>
 
 <?php include '../includes/footer.php'; ?>
-</body>
-</html>

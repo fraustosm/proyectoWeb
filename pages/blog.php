@@ -12,7 +12,7 @@
 
     <main>
         <section>
-            <h2>Blog</h2>
+            <h2>Noticias</h2>
             <p>Entérate de las novedades!</p>
         </section>
         
@@ -33,7 +33,7 @@
                         }
                         // Mostrar el título y contenido del post
                         echo "<h4><a href='post.php?id=" . $row["id"] . "'>" . htmlspecialchars($row["titulo"]) . "</a></h4>";
-                        echo "<p>" . nl2br(htmlspecialchars(substr($row["contenido"], 0, 100))) . "...</p>"; // Muestra solo 100 caracteres
+                        echo "<p>" . nl2br(htmlspecialchars($row["contenido"])) . "</p>"; 
                         echo "<small>Publicado el: " . date("d-m-Y H:i", strtotime($row["fecha_publicacion"])) . "</small>";
                         echo "</li>";
                     }
