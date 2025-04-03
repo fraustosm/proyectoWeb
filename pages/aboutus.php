@@ -23,7 +23,7 @@
                         <img src="../img/photo.jpg" alt="Maria Frausto" height="120px" width="auto">
                     </li>
                     <li><strong>Vladimir Kolesnikov </strong> - CTO, desarrollador web front end.
-                        <img src="../img/photo-1.jpg" alt="Vladimir Kolesnikov" height="120px" width="auto">
+                        <img src="../img/photo1.jpg" alt="Vladimir Kolesnikov" height="120px" width="auto">
                     <li><strong>Tigrilla</strong> - Supervisora de calidad.
                         <img src="../img/tigrilla.jpg" alt="Tigrilla- un gato" height="120px" width="auto">
                     </li>
