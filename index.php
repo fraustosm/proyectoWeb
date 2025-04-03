@@ -82,5 +82,8 @@
     </main>
     
     <?php include 'includes/footer.php'; ?>
+
+    <button class="scroll-to-top" style="display: none;">↑</button>
+<script src="js/script.js"></script>
 </body>
 </html>
