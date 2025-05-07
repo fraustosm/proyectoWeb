@@ -6,6 +6,14 @@
     <title>English 2learn - Blog</title>
     <link rel="stylesheet" href="../css/styles.css">
     <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #6A5ACD;
+            --accent-color: #CDC1D9;
+            --text-color: #2c3e50;
+            --light-bg: #ecf0f1;
+            --white: #ffffff;
+        }
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f8;
@@ -67,7 +75,7 @@
 
         .post-content h4 {
             margin: 0 0 0.5rem;
-            color: #003366;
+            color: var(--text-color);
         }
 
         .post-content h4 a {
@@ -76,7 +84,7 @@
         }
 
         .post-content h4 a:hover {
-            color: #0073e6;
+            color: var(--secondary-color);
         }
 
         .post-content p {

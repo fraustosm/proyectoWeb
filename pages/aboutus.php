@@ -10,8 +10,23 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
+        :root {
+    --primary-color: #2c3e50;
+    --secondary-color: #6A5ACD;
+    --accent-color: #CDC1D9;
+    --text-color: #2c3e50;
+    --light-bg: #ecf0f1;
+    --white: #ffffff;
+}
+
+h1 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Winky Sans", sans-serif;
+            font-optical-sizing: auto;
             background-color: #fdfdfd;
             color: #333;
             margin: 0;
@@ -24,8 +39,12 @@
 
         h2 {
             text-align: center;
-            color: #0056b3;
+            color: var(--text-color);
             margin-bottom: 1rem;
+        }
+
+        p, h3 {
+            color: var(--text-color)
         }
 
         .intro {
@@ -64,12 +83,12 @@
             object-fit: cover;
             border-radius: 50%;
             margin-bottom: 1rem;
-            border: 3px solid #0056b3;
+            border: 3px var(--accent-color) solid;
         }
 
         .team-member h3 {
             margin: 0.5rem 0;
-            color: #003366;
+            color: var(--text-color);
         }
 
         .team-member p {
@@ -89,7 +108,7 @@
         }
 
         .social-links a:hover {
-            color: #0056b3;
+            color: var(--secondary-color);
         }
 
         @media (max-width: 768px) {
