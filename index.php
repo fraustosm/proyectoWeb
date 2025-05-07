@@ -19,7 +19,7 @@
         </section> --->
 
         <section class="hero">
-    <div class="container">
+    <div class="container-hero">
         <h1 class="text-gradient">Transforma tu aprendizaje<br><span style="font-size: 1.2em">con nuestro método</span></h1>
         <p class="lead">Aprende con expertos con un método diferente o consigue materiales y recursos profesional para tus clases como docente.</p>
         <div class="cta-container" style="margin-top: 2rem">

@@ -21,7 +21,8 @@
                         <div class="card h-100 card-producto">
                             <img src="../img/<?= htmlspecialchars($row['imagen']) ?>" 
                                  class="card-img-top" 
-                                 alt="<?= htmlspecialchars($row['producto']) ?>">
+                                 alt="<?= htmlspecialchars($row['producto']) 
+                                 ?>">
                             <div class="card-body">
                                 <h5 class="card-title"><?= htmlspecialchars($row['producto']) ?></h5>
                                 <p class="card-text text-success h4">$<?= number_format($row['precio'], 2) ?></p>

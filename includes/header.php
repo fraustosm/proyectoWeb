@@ -20,7 +20,7 @@
             <li><a href="/pages/servicios.php">Productos</a></li>
             <li><a href="/pages/contacto.php">Contacto</a></li>
             <li><a href="/pages/aboutus.php">Sobre nosotros</a></li>
-            <li><a href="/pages/blog.php">Noticias</a></li>
+            <li><a href="/pages/noticias.php">Noticias</a></li>
         </ul>
     </nav>
 </div>
