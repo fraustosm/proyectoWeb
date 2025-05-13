@@ -1,9 +1,46 @@
 <?php include '../includes/header.php'; ?>
 <?php include '../db/connection.php'; ?>
 
+<style>
+    :root {
+        --primary-color: #2c3e50;
+        --secondary-color: #6A5ACD;
+        --accent-color: #CDC1D9;
+        --text-color: #2c3e50;
+        --light-bg: #ecf0f1;
+        --white: #ffffff;
+    }
+
+    body {
+        font-family: "Winky Sans", sans-serif;
+        font-optical-sizing: auto;
+        background-color: var(--light-bg);
+        color: var(--text-color);
+    }
+
+    .card-producto {
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card-producto:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+    .card-producto img {
+        height: 400px;
+        object-fit: cover;
+    }
+    .card-producto .card-body {
+        text-align: center;
+    }
+    .card-producto .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    </style>
 <main>
-    <section class="container my-5">
-        <h2 class="text-center mb-4">Nuestros Productos</h2>
+    <section class="container">
+        <h2 class="text-center">Nuestros Productos</h2>
         
         <div class="row">
             <?php
