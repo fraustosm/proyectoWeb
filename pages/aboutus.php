@@ -43,7 +43,7 @@ h1 {
             margin-bottom: 1rem;
         }
 
-        p, h3 {
+        h3 {
             color: var(--text-color)
         }
 
