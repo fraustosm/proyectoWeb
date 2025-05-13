@@ -36,7 +36,8 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
             max-width: 800px;
             margin: auto;
             padding: 2rem;
-            font-family: Arial, sans-serif;
+            font-family: "winky sans", sans-serif;
+            font-optical-sizing: auto;
             line-height: 1.6;
         }
 

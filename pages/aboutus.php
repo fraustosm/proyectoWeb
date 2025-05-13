@@ -117,11 +117,56 @@ h1 {
                 align-items: center;
             }
         }
+
+        .lead {
+            padding: 2rem 0;
+            color: var(--white);
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
     <main>
+    <section class="about-hero">
+    <h2>Sobre Nosotros</h2>
+    <p class="lead">Conoce más sobre nuestra misión, visión y el equipo que hace posible English2Learn.</p>
+</section>
+
+<section class="about-mission">
+    <div class="about-grid">
+        <div class="about-content">
+            <h3>Nuestra Misión</h3>
+            <p>Brindar una enseñanza del inglés accesible, efectiva y divertida para todos, sin importar la edad o nivel de conocimiento.</p>
+            <h3>Nuestra Visión</h3>
+            <p>Ser una plataforma educativa reconocida por su excelencia en la enseñanza del inglés como segunda lengua.</p>
+
+            <h3>Valores</h3>
+            <ul>
+                <li>✅ Compromiso con el aprendizaje</li>
+                <li>✅ Innovación educativa</li>
+                <li>✅ Calidad humana y profesional</li>
+            </ul>
+        </div>
+        <div class="about-image">
+            <img src="/img/success.jpg" alt="learning" class="benefit-img">
+        </div>
+    </div>
+</section>
+
+<section class="about-mission">
+    <div class="about-grid">
+        <div class="about-image">
+            <img src="/img/success.jpg" alt="mission" class="benefit-img">
+        </div>
+        <div class="about-content">
+            <h3>¿Quiénes Somos?</h3>
+            <p>Somos un grupo de docentes especializados en la enseñanza del idioma inglés con más de 10 años de experiencia.</p>
+            <h3>Nuestro Compromiso</h3>
+            <p>Nos comprometemos a ofrecer cursos de calidad, con materiales propios y atención personalizada.</p>
+        </div>
+    </div>
+</section>
         <section>
             <h2>Sobre Nosotros</h2>
             <p class="intro">En <strong>English 2learn</strong>, nuestra misión es proporcionar educación de calidad para el aprendizaje del inglés de manera efectiva y accesible. Contamos con un equipo de expertos en enseñanza del idioma, materiales innovadores y una plataforma diseñada para que aprendas a tu ritmo.</p>
