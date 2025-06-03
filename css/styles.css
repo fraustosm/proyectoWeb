@@ -86,6 +86,12 @@ header {
     padding: 2rem;
 }
 
+.container-hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
 .text-gradient {
     background: linear-gradient(to right, var(--light-bg), var(--secondary-color), var(--accent-color));
     -webkit-background-clip: text;
