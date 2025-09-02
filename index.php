@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English 2learn</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     </head>
 <body>
-    <?php include 'includes/header.php'; ?>
+    <?php include './../proyectoWeb/includes/header.php'; ?>
     
     <main>
       <!---  <section class="hero">
@@ -19,7 +19,7 @@
         </section> --->
 
         <section class="hero">
-    <div class="container">
+    <div class="container-hero">
         <h1 class="text-gradient">Transforma tu aprendizaje<br><span style="font-size: 1.2em">con nuestro método</span></h1>
         <p class="lead">Aprende con expertos con un método diferente o consigue materiales y recursos profesional para tus clases como docente.</p>
         <div class="cta-container" style="margin-top: 2rem">
@@ -82,5 +82,8 @@
     </main>
     
     <?php include 'includes/footer.php'; ?>
+
+    <button class="scroll-to-top" style="display: none;">↑</button>
+<script src="js/script.js"></script>
 </body>
 </html>
