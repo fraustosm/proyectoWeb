@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English 2learn - Blog</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <style>
         :root {
             --primary-color: #2c3e50;
@@ -108,8 +108,8 @@
     </style>
 </head>
 <body>
-    <?php include '../includes/header.php'; ?>
-    <?php include '../db/connection.php'; ?>
+   <?php include './../proyectoWeb/includes/header.php'; ?>
+    <?php include './db/connection.php'; ?>
 
     <main>
         <section>
@@ -151,6 +151,7 @@
         </section>
     </main>
 
-    <?php include '../includes/footer.php'; ?>
+      <?php include 'includes/footer.php'; ?>
+
 </body>
 </html>

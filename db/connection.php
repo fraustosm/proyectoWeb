@@ -1,5 +1,5 @@
 <?php
-$servername = "127.0.0.1"; // Usa 127.0.0.1 en vez de localhost si hay problemas
+$servername = "127.0.0.1";
 $username = "root"; 
 $password = ""; 
 $database = "english2learn"; 

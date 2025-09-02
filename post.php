@@ -1,5 +1,5 @@
 <?php
-include '../includes/header.php';
+include './../proyectoWeb/includes/header.php'; 
 include '../db/connection.php';
 
 // Verificar si hay un ID de post en la URL
@@ -91,6 +91,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
     <a href="/pages/noticias.php" class="back">← Volver a la sección de noticias</a>
 </main>
 
-<?php include '../includes/footer.php'; ?>
+    <?php include 'includes/footer.php'; ?>
+
 </body>
 </html>

@@ -1,5 +1,5 @@
-<?php include '../includes/header.php'; ?>
-<?php include '../db/connection.php'; ?>
+<?php include './../proyectoWeb/includes/header.php'; ?>
+<?php include './db/connection.php'; ?>
 
 
 <head>
@@ -113,4 +113,5 @@
     </section>
 </main>
 
-<?php include '../includes/footer.php'; ?>
+    <?php include 'includes/footer.php'; ?>
+
