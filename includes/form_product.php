@@ -8,8 +8,8 @@
   <label>Precio:</label>
   <input type="text" name="precio"><br>
 
-  <label>Imagen (archivo o ruta):</label>
-  <input type="text" name="imagen"><br>
+  <label>Imagen:</label>
+  <input type="file" name="imagen"><br>
 
   <label>Fecha lanzamiento:</label>
   <input type="date" name="fecha_lanzamiento"><br>
