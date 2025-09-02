@@ -1,6 +1,6 @@
 <?php
 include './../proyectoWeb/includes/header.php'; 
-include '../db/connection.php';
+include './db/connection.php';
 
 // Verificar si hay un ID de post en la URL
 if (isset($_GET['id']) && is_numeric($_GET['id'])) {
@@ -14,12 +14,12 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
         $post = $result->fetch_assoc();
     } else {
         echo "<p style='padding:2rem;'>Publicación no encontrada.</p>";
-        include '../includes/footer.php';
+        include 'includes/footer.php';
         exit;
     }
 } else {
     echo "<p style='padding:2rem;'>ID inválido.</p>";
-    include '../includes/footer.php';
+    include 'includes/footer.php';
     exit;
 }
 ?>
@@ -88,7 +88,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
         <?= nl2br(htmlspecialchars($post['contenido'])) ?>
     </div>
 
-    <a href="/pages/noticias.php" class="back">← Volver a la sección de noticias</a>
+    <a href="/noticias.php" class="back">← Volver a la sección de noticias</a>
 </main>
 
     <?php include 'includes/footer.php'; ?>
