@@ -37,13 +37,12 @@ include '../db/connection.php';
         </thead>
         <tbody>
             <?php
-            $result = $conn->query("SELECT * FROM posts ORDER BY fecha DESC");
+            $result = $conn->query("SELECT * FROM blog_posts ORDER BY fecha_publicacion DESC");
             while ($row = $result->fetch_assoc()): ?>
                 <tr>
                     <td><?= $row['id']; ?></td>
                     <td><?= htmlspecialchars($row['titulo']); ?></td>
-                    <td><?= htmlspecialchars($row['categoria']); ?></td>
-                    <td><?= $row['fecha']; ?></td>
+                    <td><?= $row['fecha_publicacion']; ?></td>
                     <td>
                         <a href="post_edit.php?id=<?= $row['id']; ?>" class="btn">✏ Editar</a>
                         <a href="post_delete.php?id=<?= $row['id']; ?>" class="btn" onclick="return confirm('¿Eliminar esta publicación?')">🗑 Eliminar</a>

@@ -24,8 +24,8 @@
         <p class="lead">Aprende con expertos con un método diferente o consigue materiales y recursos profesional para tus clases como docente.</p>
         <div class="cta-container" style="margin-top: 2rem">
             <a href="/#services" class="btn glow-on-hover">Ver servicios</a>
-            <a href="/pages/servicios.php" class="btn glow-on-hover">Ver productos</a>
-            <a href="/pages/contacto.php" class="btn glow-on-hover">Contacto</a>
+            <a href="/servicios.php" class="btn glow-on-hover">Ver productos</a>
+            <a href="/contacto.php" class="btn glow-on-hover">Contacto</a>
         </div>
     </div>
 </section>
